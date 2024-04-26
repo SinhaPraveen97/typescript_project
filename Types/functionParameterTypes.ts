@@ -26,3 +26,9 @@ const add = (x: number, y: number): number =>
     colors.map(color =>{
         return color.toUpperCase();
     })
+
+    function returnTwice (msg : string ): void {
+        console.log(msg);
+        console.log(msg);
+        //return "";
+    }
