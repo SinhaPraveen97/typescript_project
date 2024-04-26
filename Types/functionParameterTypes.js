@@ -7,3 +7,7 @@ square(3);
 var doSomething = function (person, age, isFunny) {
 };
 doSomething("chickenFace", 78, true);
+var add = function (x, y) {
+    return x + y;
+};
+add(10, 5);
