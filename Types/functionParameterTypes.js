@@ -15,3 +15,8 @@ var colors = ["Red", "Green", "Blue"];
 colors.map(function (color) {
     return color.toUpperCase();
 });
+function returnTwice(msg) {
+    console.log(msg);
+    console.log(msg);
+    //return "";
+}
