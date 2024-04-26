@@ -21,3 +21,8 @@ const add = (x: number, y: number): number =>
     }
 
     add(10,5);
+
+    const colors =["Red","Green","Blue"];
+    colors.map(color =>{
+        return color.toUpperCase();
+    })

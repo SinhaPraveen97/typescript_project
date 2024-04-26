@@ -11,3 +11,7 @@ var add = function (x, y) {
     return x + y;
 };
 add(10, 5);
+var colors = ["Red", "Green", "Blue"];
+colors.map(function (color) {
+    return color.toUpperCase();
+});
